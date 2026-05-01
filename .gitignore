@@ -1,0 +1,11 @@
+# Ignore everything by default. .config
+# can end up containing credentials and we
+# do not want to have those in version control!
+/*
+
+# These things are explicitly tracked:
+!.gitignore
+!nvim
+!zellij
+!README.md
+
